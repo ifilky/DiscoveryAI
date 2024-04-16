@@ -79,11 +79,12 @@
     }
  
     .paragrafo {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
  
     .imagens {
         height: 307px;
+        margin-bottom: 2rem;
     }
  
     .imagens > .minhaFoto, .imagens > .circuloColorido {
@@ -98,7 +99,7 @@
     }
    
     .imagens > .circuloColorido {
-        width: 240px;
+        width: 220px;
         transform: translate(-1.5rem, 0px);
     }
 }

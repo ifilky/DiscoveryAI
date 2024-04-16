@@ -1,4 +1,3 @@
-import { Link, useLocation } from 'react-router-dom';
 import styles from './Menu.module.css';
 import MenuLink from '../MenuLink'
 
@@ -7,7 +6,7 @@ const Menu = () => {
         <header>
             <nav className={styles.navegacao}>
                 <MenuLink to="/" >Início</MenuLink>
-                <MenuLink to="/sobremim" >Sobre Mim</MenuLink>
+                <MenuLink to="/sobremim" >Sobre o autor</MenuLink>
             </nav>
         </header>
     )
