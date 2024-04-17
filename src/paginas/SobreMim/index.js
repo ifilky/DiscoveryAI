@@ -6,7 +6,7 @@ import minhaFoto from "assets/perfil.jpg";
 
 const SobreMim = () => {
   return (
-    <PostModelo fotoCapa={fotoCapa} titulo="Sobre Mim">
+    <PostModelo fotoCapa={fotoCapa} titulo="Sobre o autor">
       <h3 className={styles.subtitulo}>Olá, eu sou Ilky</h3>
 
       <img
@@ -25,7 +25,7 @@ const SobreMim = () => {
         Java, PHP, mas sem aprofundar muito.
       </p>
       <p className={styles.paragrafo}>
-        Passado o tempo, quando fui conhecendo mais o ecossistema das stacks, comecei a me aproximar mais do front-end, criando uma base sólida com HTML, CSS, Javascript e atualmente estou estudando a biblioteca do React e buscando desenvolver projetos significativos com essas tecnologias. Essa página é apenas um dos projetos que pude desenvolver. Para conhecer mais alguns, te convido a visitar meu perfil do <a href="https://github.com/ifilky">GitHub</a> e do <a href="https://www.linkedin.com/in/ilkyandre/">Linkedin</a>.
+        Passado o tempo, quando fui conhecendo mais o ecossistema das stacks, comecei a me aproximar mais do front-end, criando uma base sólida com HTML, CSS, Javascript e atualmente estou estudando a biblioteca do React e buscando desenvolver projetos significativos com essas tecnologias. Essa página é apenas um dos projetos desenvolvidos por mim. Para conhecer mais alguns, te convido a visitar meu perfil do <a href="https://github.com/ifilky">GitHub</a> e do <a href="https://www.linkedin.com/in/ilkyandre/">Linkedin</a>.
       </p>
     </PostModelo>
   );

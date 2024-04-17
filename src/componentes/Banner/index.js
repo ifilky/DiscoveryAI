@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className={styles.banner}>
       <div className={styles.apresentacao}>
-        <h1 className={styles.titulo}>Good Tools!</h1>
+        <h1 className={styles.titulo}>Discovery AI</h1>
         <p className={styles.paragrafo}>
           Aqui você encontrará algumas sugestões de ferramentas de inteligência artificial que poderão lhe auxiliar no seu dia a dia, seja para fins de trabalho, estudo ou uso pessoal
         </p>
